@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NxViewColors - Privacy Policy / Gizlilik Politikası</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+        
+        .logo span {
+            color: #e94560;
+        }
+        
+        .lang-selector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .lang-btn {
+            padding: 8px 16px;
+            border: 2px solid #1a1a2e;
+            background: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .lang-btn:hover {
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        .lang-btn.active {
+            background: #e94560;
+            border-color: #e94560;
+            color: white;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .policy {
+            display: none;
+        }
+        
+        .policy.active {
+            display: block;
+        }
+        
+        h1 {
+            color: #1a1a2e;
+            font-size: 24px;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #e94560;
+        }
+        
+        .update-date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #1a1a2e;
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 4px solid #e94560;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .contact-box a {
+            color: #e94560;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+        
+        .footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            .lang-btn {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Nx<span>View</span>Colors</div>
+        <div class="subtitle">Privacy Policy / Gizlilik Politikası</div>
+        <div class="lang-selector">
+            <button class="lang-btn active" onclick="showLang('tr')">🇹🇷 Türkçe</button>
+            <button class="lang-btn" onclick="showLang('en')">🇬🇧 English</button>
+            <button class="lang-btn" onclick="showLang('de')">🇩🇪 Deutsch</button>
+            <button class="lang-btn" onclick="showLang('es')">🇪🇸 Español</button>
+            <button class="lang-btn" onclick="showLang('fr')">🇫🇷 Français</button>
+            <button class="lang-btn" onclick="showLang('nl')">🇳🇱 Nederlands</button>
+            <button class="lang-btn" onclick="showLang('it')">🇮🇹 Italiano</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="content">
+            
+            <!-- TÜRKÇE -->
+            <div id="tr" class="policy active">
+                <h1>🔒 Gizlilik Politikası</h1>
+                <p class="update-date">Son güncelleme: Şubat 2025</p>
+                
+                <h2>1. Toplanan Veriler</h2>
+                <p>NxViewColors uygulaması, gizliliğinize saygı duyar ve minimum veri toplar:</p>
+                <ul>
+                    <li><strong>Fotoğraflar:</strong> Yalnızca cihazınızda saklanır, hiçbir sunucuya gönderilmez.</li>
+                    <li><strong>Konum bilgisi:</strong> Sadece siz izin verirseniz ve yalnızca fotoğraf EXIF verisine eklenir. Hiçbir yere iletilmez.</li>
+                    <li><strong>Ayarlar:</strong> Uygulama tercihleri yalnızca cihazınızda saklanır.</li>
+                </ul>
+                
+                <h2>2. Veri Paylaşımı</h2>
+                <div class="highlight">
+                    <p>Kişisel verilerinizi:</p>
+                    <ul>
+                        <li>Üçüncü taraflarla <strong>PAYLAŞMIYORUZ</strong></li>
+                        <li>Satmıyoruz</li>
+                        <li>Reklam için kullanmıyoruz</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Veri Güvenliği</h2>
+                <p>Tüm veriler cihazınızda yerel olarak saklanır. İnternet bağlantısı gerektirmez, bulut servisi kullanmaz.</p>
+                
+                <h2>4. Çocukların Gizliliği</h2>
+                <p>Uygulamamız 13 yaş altı çocuklardan bilerek veri toplamaz.</p>
+                
+                <h2>5. İzinler</h2>
+                <ul>
+                    <li><strong>Kamera:</strong> Fotoğraf çekmek için</li>
+                    <li><strong>Depolama:</strong> Fotoğrafları kaydetmek için</li>
+                    <li><strong>Konum (opsiyonel):</strong> Fotoğrafa GPS bilgisi eklemek için</li>
+                </ul>
+                
+                <h2>6. Değişiklikler</h2>
+                <p>Bu politika güncellenebilir. Önemli değişikliklerde uygulama içi bildirim yapılır.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 İletişim</h2>
+                    <p>Sorularınız için: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- ENGLISH -->
+            <div id="en" class="policy">
+                <h1>🔒 Privacy Policy</h1>
+                <p class="update-date">Last updated: February 2025</p>
+                
+                <h2>1. Data Collected</h2>
+                <p>NxViewColors respects your privacy and collects minimal data:</p>
+                <ul>
+                    <li><strong>Photos:</strong> Stored only on your device, never sent to any server.</li>
+                    <li><strong>Location:</strong> Only if you permit, and only added to photo EXIF data. Never transmitted elsewhere.</li>
+                    <li><strong>Settings:</strong> App preferences stored only on your device.</li>
+                </ul>
+                
+                <h2>2. Data Sharing</h2>
+                <div class="highlight">
+                    <p>Your personal data:</p>
+                    <ul>
+                        <li>We do <strong>NOT share</strong> with third parties</li>
+                        <li>We do not sell</li>
+                        <li>We do not use for advertising</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Data Security</h2>
+                <p>All data is stored locally on your device. No internet connection required, no cloud services used.</p>
+                
+                <h2>4. Children's Privacy</h2>
+                <p>Our app does not knowingly collect data from children under 13 years of age.</p>
+                
+                <h2>5. Permissions</h2>
+                <ul>
+                    <li><strong>Camera:</strong> To take photos</li>
+                    <li><strong>Storage:</strong> To save photos</li>
+                    <li><strong>Location (optional):</strong> To add GPS info to photos</li>
+                </ul>
+                
+                <h2>6. Changes</h2>
+                <p>This policy may be updated. Significant changes will be notified within the app.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Contact</h2>
+                    <p>For questions: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- DEUTSCH -->
+            <div id="de" class="policy">
+                <h1>🔒 Datenschutzrichtlinie</h1>
+                <p class="update-date">Letzte Aktualisierung: Februar 2025</p>
+                
+                <h2>1. Erfasste Daten</h2>
+                <p>NxViewColors respektiert Ihre Privatsphäre und sammelt minimale Daten:</p>
+                <ul>
+                    <li><strong>Fotos:</strong> Werden nur auf Ihrem Gerät gespeichert, nie an Server gesendet.</li>
+                    <li><strong>Standort:</strong> Nur mit Ihrer Erlaubnis, nur zu EXIF-Daten hinzugefügt. Nie anderweitig übertragen.</li>
+                    <li><strong>Einstellungen:</strong> App-Präferenzen werden nur auf Ihrem Gerät gespeichert.</li>
+                </ul>
+                
+                <h2>2. Datenweitergabe</h2>
+                <div class="highlight">
+                    <p>Ihre persönlichen Daten:</p>
+                    <ul>
+                        <li>Werden <strong>NICHT</strong> an Dritte weitergegeben</li>
+                        <li>Werden nicht verkauft</li>
+                        <li>Werden nicht für Werbung verwendet</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Datensicherheit</h2>
+                <p>Alle Daten werden lokal auf Ihrem Gerät gespeichert. Keine Internetverbindung erforderlich, keine Cloud-Dienste verwendet.</p>
+                
+                <h2>4. Datenschutz für Kinder</h2>
+                <p>Unsere App sammelt wissentlich keine Daten von Kindern unter 13 Jahren.</p>
+                
+                <h2>5. Berechtigungen</h2>
+                <ul>
+                    <li><strong>Kamera:</strong> Zum Fotografieren</li>
+                    <li><strong>Speicher:</strong> Zum Speichern von Fotos</li>
+                    <li><strong>Standort (optional):</strong> GPS-Info zu Fotos hinzufügen</li>
+                </ul>
+                
+                <h2>6. Änderungen</h2>
+                <p>Diese Richtlinie kann aktualisiert werden. Wesentliche Änderungen werden in der App benachrichtigt.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Kontakt</h2>
+                    <p>Bei Fragen: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- ESPAÑOL -->
+            <div id="es" class="policy">
+                <h1>🔒 Política de Privacidad</h1>
+                <p class="update-date">Última actualización: Febrero 2025</p>
+                
+                <h2>1. Datos Recopilados</h2>
+                <p>NxViewColors respeta su privacidad y recopila datos mínimos:</p>
+                <ul>
+                    <li><strong>Fotos:</strong> Almacenadas solo en su dispositivo, nunca enviadas a ningún servidor.</li>
+                    <li><strong>Ubicación:</strong> Solo si lo permite, y solo añadida a datos EXIF. Nunca transmitida a otro lugar.</li>
+                    <li><strong>Configuración:</strong> Preferencias de la app almacenadas solo en su dispositivo.</li>
+                </ul>
+                
+                <h2>2. Compartir Datos</h2>
+                <div class="highlight">
+                    <p>Sus datos personales:</p>
+                    <ul>
+                        <li><strong>NO</strong> compartimos con terceros</li>
+                        <li>No vendemos</li>
+                        <li>No usamos para publicidad</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Seguridad de Datos</h2>
+                <p>Todos los datos se almacenan localmente en su dispositivo. No se requiere conexión a internet, no se usan servicios en la nube.</p>
+                
+                <h2>4. Privacidad Infantil</h2>
+                <p>Nuestra app no recopila datos conscientemente de niños menores de 13 años.</p>
+                
+                <h2>5. Permisos</h2>
+                <ul>
+                    <li><strong>Cámara:</strong> Para tomar fotos</li>
+                    <li><strong>Almacenamiento:</strong> Para guardar fotos</li>
+                    <li><strong>Ubicación (opcional):</strong> Añadir info GPS a fotos</li>
+                </ul>
+                
+                <h2>6. Cambios</h2>
+                <p>Esta política puede actualizarse. Los cambios significativos se notificarán en la app.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Contacto</h2>
+                    <p>Para preguntas: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- FRANÇAIS -->
+            <div id="fr" class="policy">
+                <h1>🔒 Politique de Confidentialité</h1>
+                <p class="update-date">Dernière mise à jour: Février 2025</p>
+                
+                <h2>1. Données Collectées</h2>
+                <p>NxViewColors respecte votre vie privée et collecte un minimum de données:</p>
+                <ul>
+                    <li><strong>Photos:</strong> Stockées uniquement sur votre appareil, jamais envoyées à aucun serveur.</li>
+                    <li><strong>Localisation:</strong> Uniquement si vous l'autorisez, ajoutée uniquement aux données EXIF. Jamais transmise ailleurs.</li>
+                    <li><strong>Paramètres:</strong> Préférences de l'app stockées uniquement sur votre appareil.</li>
+                </ul>
+                
+                <h2>2. Partage des Données</h2>
+                <div class="highlight">
+                    <p>Vos données personnelles:</p>
+                    <ul>
+                        <li>Ne sont <strong>PAS</strong> partagées avec des tiers</li>
+                        <li>Ne sont pas vendues</li>
+                        <li>Ne sont pas utilisées pour la publicité</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Sécurité des Données</h2>
+                <p>Toutes les données sont stockées localement sur votre appareil. Aucune connexion internet requise, aucun service cloud utilisé.</p>
+                
+                <h2>4. Confidentialité des Enfants</h2>
+                <p>Notre app ne collecte pas sciemment de données d'enfants de moins de 13 ans.</p>
+                
+                <h2>5. Permissions</h2>
+                <ul>
+                    <li><strong>Caméra:</strong> Pour prendre des photos</li>
+                    <li><strong>Stockage:</strong> Pour enregistrer les photos</li>
+                    <li><strong>Localisation (optionnel):</strong> Ajouter info GPS aux photos</li>
+                </ul>
+                
+                <h2>6. Modifications</h2>
+                <p>Cette politique peut être mise à jour. Les changements significatifs seront notifiés dans l'app.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Contact</h2>
+                    <p>Pour toute question: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- NEDERLANDS -->
+            <div id="nl" class="policy">
+                <h1>🔒 Privacybeleid</h1>
+                <p class="update-date">Laatst bijgewerkt: Februari 2025</p>
+                
+                <h2>1. Verzamelde Gegevens</h2>
+                <p>NxViewColors respecteert uw privacy en verzamelt minimale gegevens:</p>
+                <ul>
+                    <li><strong>Foto's:</strong> Alleen opgeslagen op uw apparaat, nooit verzonden naar servers.</li>
+                    <li><strong>Locatie:</strong> Alleen met uw toestemming, alleen toegevoegd aan EXIF-gegevens. Nooit elders verzonden.</li>
+                    <li><strong>Instellingen:</strong> App-voorkeuren alleen opgeslagen op uw apparaat.</li>
+                </ul>
+                
+                <h2>2. Gegevens Delen</h2>
+                <div class="highlight">
+                    <p>Uw persoonlijke gegevens:</p>
+                    <ul>
+                        <li>Worden <strong>NIET</strong> gedeeld met derden</li>
+                        <li>Worden niet verkocht</li>
+                        <li>Worden niet gebruikt voor advertenties</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Gegevensbeveiliging</h2>
+                <p>Alle gegevens worden lokaal op uw apparaat opgeslagen. Geen internetverbinding vereist, geen cloudservices gebruikt.</p>
+                
+                <h2>4. Privacy van Kinderen</h2>
+                <p>Onze app verzamelt bewust geen gegevens van kinderen onder de 13 jaar.</p>
+                
+                <h2>5. Machtigingen</h2>
+                <ul>
+                    <li><strong>Camera:</strong> Om foto's te maken</li>
+                    <li><strong>Opslag:</strong> Om foto's op te slaan</li>
+                    <li><strong>Locatie (optioneel):</strong> GPS-info aan foto's toevoegen</li>
+                </ul>
+                
+                <h2>6. Wijzigingen</h2>
+                <p>Dit beleid kan worden bijgewerkt. Belangrijke wijzigingen worden in de app gemeld.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Contact</h2>
+                    <p>Voor vragen: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- ITALIANO -->
+            <div id="it" class="policy">
+                <h1>🔒 Informativa sulla Privacy</h1>
+                <p class="update-date">Ultimo aggiornamento: Febbraio 2025</p>
+                
+                <h2>1. Dati Raccolti</h2>
+                <p>NxViewColors rispetta la tua privacy e raccoglie dati minimi:</p>
+                <ul>
+                    <li><strong>Foto:</strong> Memorizzate solo sul tuo dispositivo, mai inviate a server.</li>
+                    <li><strong>Posizione:</strong> Solo con il tuo permesso, aggiunta solo ai dati EXIF. Mai trasmessa altrove.</li>
+                    <li><strong>Impostazioni:</strong> Preferenze dell'app memorizzate solo sul tuo dispositivo.</li>
+                </ul>
+                
+                <h2>2. Condivisione Dati</h2>
+                <div class="highlight">
+                    <p>I tuoi dati personali:</p>
+                    <ul>
+                        <li><strong>NON</strong> vengono condivisi con terze parti</li>
+                        <li>Non vengono venduti</li>
+                        <li>Non vengono usati per pubblicità</li>
+                    </ul>
+                </div>
+                
+                <h2>3. Sicurezza dei Dati</h2>
+                <p>Tutti i dati sono memorizzati localmente sul tuo dispositivo. Nessuna connessione internet richiesta, nessun servizio cloud utilizzato.</p>
+                
+                <h2>4. Privacy dei Minori</h2>
+                <p>La nostra app non raccoglie consapevolmente dati da bambini sotto i 13 anni.</p>
+                
+                <h2>5. Permessi</h2>
+                <ul>
+                    <li><strong>Fotocamera:</strong> Per scattare foto</li>
+                    <li><strong>Archiviazione:</strong> Per salvare foto</li>
+                    <li><strong>Posizione (opzionale):</strong> Aggiungere info GPS alle foto</li>
+                </ul>
+                
+                <h2>6. Modifiche</h2>
+                <p>Questa informativa può essere aggiornata. Cambiamenti significativi saranno notificati nell'app.</p>
+                
+                <div class="contact-box">
+                    <h2 style="color: white; border: none; margin: 0;">📧 Contatto</h2>
+                    <p>Per domande: <a href="mailto:nxviewcolors@gmail.com">nxviewcolors@gmail.com</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 NxViewColors. All rights reserved.</p>
+        <p>Developed with ❤️ by an independent developer</p>
+    </div>
+    
+    <script>
+        function showLang(lang) {
+            // Hide all policies
+            document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+            // Show selected policy
+            document.getElementById(lang).classList.add('active');
+            // Update button styles
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        
+        // Auto-detect browser language
+        const browserLang = navigator.language.substring(0, 2);
+        const supportedLangs = ['tr', 'en', 'de', 'es', 'fr', 'nl', 'it'];
+        if (supportedLangs.includes(browserLang)) {
+            document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+            document.getElementById(browserLang).classList.add('active');
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.onclick.toString().includes(browserLang)) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
